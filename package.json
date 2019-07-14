@@ -2,6 +2,10 @@
   "name": "node_mysql_client",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "sucrase-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/mysql2": "types/mysql2",
